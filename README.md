@@ -37,7 +37,7 @@ Energy within Threshold (EwT) is designed to measure the practical usefulness of
   
   Once the weights are generated, copy them to `Efermi_MP_2019_Weights` folder.
   
-  Please note that, YOU MUST SAVE THE FOLLOWING WEIGHTS WHILE TRAINING
+  Please ensure you save/pickle the following weights while training the notebook
   ```
   'Efermi_MP_2019_Weights/val_mae_00011_0.009874_fold0.hdf5',
   'Efermi_MP_2019_Weights/val_mae_00025_0.005614_fold1.hdf5',
