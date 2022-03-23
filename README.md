@@ -23,12 +23,15 @@ Energy within Threshold (EwT) is designed to measure the practical usefulness of
 
 
 ## Track 1
-* ### To generate our submission
-  Please run the `inference.ipynb` notebook from top to bottom
+* ### To recreate our submission
+  Execute the `inference.ipynb` notebook cell-wise from top to bottom
 
 * ### To make everything from scratch
-  Run the `data-split-5-folds.ipynb` notebook and it will generate `IDAO_Data_Folds.csv`
-  Run the `train_fold0.ipynb train_fold1.ipynb train_fold2.ipynb train_fold3.ipynb train_fold4.ipynb` notebooks and each of them is going to take ALOT of time to train. Once the weights are generated, copy them to `Efermi_MP_2019_Weights` folder.
+  Execute the `data-split-5-folds.ipynb` notebook and it will generate `IDAO_Data_Folds.csv`
+  Splitting the data over 5 folds gave us an improvement in our ensemble & led to a good CV/LB correlation.
+  Execute the `train_fold0.ipynb train_fold1.ipynb train_fold2.ipynb train_fold3.ipynb train_fold4.ipynb`.
+  Depending upon your system hardware, the notebooks may take some time to get executed.
+  Once the weights are generated, copy them to `Efermi_MP_2019_Weights` folder.
   Please note that, YOU MUST SAVE THE FOLLOWING WEIGHTS WHILE TRAINING
   ```
   'Efermi_MP_2019_Weights/val_mae_00011_0.009874_fold0.hdf5',
@@ -47,6 +50,7 @@ Energy within Threshold (EwT) is designed to measure the practical usefulness of
 
 
 ## Track 2
+  Export the folder in Track 2 as `track2.zip`
   Simply submit the `track2.zip` to reproduce our submission
   
   
