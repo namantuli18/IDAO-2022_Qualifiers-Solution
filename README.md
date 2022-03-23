@@ -1,6 +1,10 @@
 # IDAO 2022 Qualifiers Solution
 
 # Result
+| Track A Score | Track A Public | Track A Private | Track B Score | Track B Public | Track B Private | Total |
+|---------------|----------------|-----------------|---------------|----------------|-----------------|-------|
+| 0.926         | 0.930          | 0.926           | 0.933         | 0.928          | 0.933           | 1.859 |
+
 ![](https://i.ibb.co/Pt0TJkz/Screenshot-2022-03-18-at-20-46-36-Results-IDAO-International-Data-Analysis-Olympiad.png)
 
 
